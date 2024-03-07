@@ -1,0 +1,61 @@
+.locationCard{
+    height: 500px;
+    width: 500px;
+    background-color: lightgrey;
+    border-radius: 25px;  
+    position:relative;
+    overflow: hidden;
+    
+}
+.location-point{
+    text-transform: uppercase;
+    text-align: center;
+    position:absolute;
+    left:50px;
+    top:20px;
+}
+.locationImg{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:0;
+    width: 100%;
+    height:100%;
+}
+.header-card{
+    background-color: lightslategray;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    z-index: 20;
+}
+.body-card{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+/* per i div timeview */
+.timeView{
+    width: 220px;
+    height: 140px;
+    background-color: lightslategray;
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    z-index: 20;
+}
+.timeViewBody{
+    width: 50%;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.timeView li{
+    margin: 5px 0;
+}
