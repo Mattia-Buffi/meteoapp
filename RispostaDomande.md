@@ -1,4 +1,5 @@
 1. Cos’è ReactJS?
+ React è una libreria di JS diventata open source e sviluppata da Meta, permette la creazione di interfacce utente sviluppando tramite componenti separati che possono essere richiamati e modificati al bisogno
 
 2. ReactJS è un framework, non una libreria.
  VERO
