@@ -8,7 +8,7 @@ export default function LocationCard({reportAPI}) {
     let imgCloud="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU2wrJmhx-pknOodpd8awNUYHBqVIHj8P71UtbFbRIng&s";
     return (
         <div className='locationCard'>
-            <img className='locationImg' src={imgCloud} alt="" />
+            {/* <img className='locationImg' src={imgCloud} alt="" /> */}
             <h2 className='location-point'>Belluno</h2>
             <div className="header-card">
                 <h3 className="now-time">{reportAPI[2].time}</h3>
